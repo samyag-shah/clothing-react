@@ -1,0 +1,25 @@
+.signup-container {
+    //border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .signup-header-container {
+        //border: 1px solid;
+        //margin-bottom: 20px;
+        h2 {
+            margin: 0
+        }
+    }
+
+    .signup-form-container {
+        //border: 1px solid;        
+
+        .signup-button {
+            margin-top: 30px
+        }
+    }
+
+    
+}
+

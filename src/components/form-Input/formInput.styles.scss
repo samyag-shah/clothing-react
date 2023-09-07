@@ -1,0 +1,31 @@
+.form-input-container {
+    //border: 1px solid;
+    position: relative;
+    padding: 10px 0; 
+
+    label {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 5px;
+
+        &:active {
+            top: 0px;
+            left: 0px
+        }
+    }
+
+    input {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 400px;
+        padding: 10px;
+        outline: none;
+        &:focus {
+            label {
+                background-color: red;
+            }
+        }
+    }
+}

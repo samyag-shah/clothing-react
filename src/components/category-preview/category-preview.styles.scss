@@ -1,0 +1,34 @@
+.category-preview-container {
+        h2 {
+            cursor: pointer;
+        }
+    }
+    .category-preview-products-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px
+    }
+    .category-preview-product-container {
+        border: 1px solid;
+        position: relative;
+        width: 300px;
+        height: 350px;
+        margin-bottom: 50px;
+        
+        img {
+            width: 100%;
+            height: 100%
+        }
+        .category-preview-product-button {
+            position: absolute;
+            bottom: 20px;
+            left: 20%
+        }
+        .category-preview-product-footer {
+            //border: 1px solid;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    

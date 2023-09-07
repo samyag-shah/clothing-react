@@ -1,0 +1,16 @@
+.categories-container {
+    // border: 1px solid;
+    // padding: 0rem 2rem;
+    // margin-top: 1rem;
+    
+    //grid
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    // gap: 1rem;
+
+    //flex
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px
+}

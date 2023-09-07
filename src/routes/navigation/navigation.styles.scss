@@ -1,0 +1,31 @@
+.navbar-container {
+    //border: 1px solid;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar-logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 70px;
+    }
+    .navbar-links-container {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        
+        .navbar-link {
+            padding: 10px 20px;
+            &:hover {
+                border: 1px solid
+            }
+        }
+        .navbar-cart-icon {
+            position: relative;
+
+        }
+    }
+}

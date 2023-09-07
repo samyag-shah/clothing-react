@@ -1,0 +1,24 @@
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .signin-header-container {
+        h2 {
+            margin: 0
+        }
+    }
+
+    .signin-form-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;        
+
+        .signin-button-container {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }    
+}
+
